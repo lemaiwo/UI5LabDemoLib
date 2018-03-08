@@ -1,0 +1,6 @@
+.MyFirstControl-intro {
+  background-color: red;
+}
+
+/* Inline theming parameters */
+#sap-ui-theme-be\.wl\.demo { background-image: url('data:text/plain;utf-8,%7B%7D'); }

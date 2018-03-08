@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Example - be.wl.demo</title>
+    <base href="../../../../../">
+    <!--[if lte IE 9]><script type="text/javascript">
+    (function() {
+        var baseTag = document.getElementsByTagName('base')[0];
+        baseTag.href = baseTag.href;
+    })();
+</script><![endif]-->
+    <!-- ********************************************************************** -->
+    <!-- SAPUI5 Bootstrap:                                                     -->
+    <!-- Extend the "libs" property if you like to import additional libraries  -->
+    <!-- ********************************************************************** -->
+	<!-- src sdk TODO : check if works in UI5Lab -> other solution possible ? -->
+    <script id="sap-ui-bootstrap"
+            type="text/javascript"
+            data-sap-ui-libs="be.wl.demo"
+            src="UI5-SDK-PATH" 
+            data-sap-ui-theme="sap_belize"
+            data-sap-ui-resourceroots='{"be.wl.demo": "resources/be/wl/demo"}'>
+    </script>
+
+    <script type="text/javascript">
+        sap.ui.getCore().attachInit(function () {
+            var oMyFirstControl = new be.wl.demo.MyFirstControl({
+                prop1:"Example control"
+            });
+            oMyFirstControl.placeAt("content");
+        });
+    </script>
+</head>
+<body class="sapUiBody" role="application">
+<div id="content"></div>
+</body>
+</html>

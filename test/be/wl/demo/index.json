@@ -1,0 +1,25 @@
+{
+	"be.wl.demo": {
+		"icon": "sap-icon://activate",
+		"name": "be.wl.demo library",
+		"description": "A library be.wl.demo",
+		"source": "<github>",
+		"documentation": "github readme",
+		"license": "MIT",
+		"version": 1.0,
+		"content": {
+			"MyFirstControlSample": {
+				"id": "MyFirstControlSample",
+				"name": "MyFirstControl Sample",
+				"type": "control",
+				"version": 1.0,
+				"description": "MyFirstControl Sample",
+				"samples": [{
+					"id": "MyFirstControlSample",
+					"name": "MyFirstControl Sample",
+					"description": "MyFirstControl Sample"
+				}]
+			}
+		}
+	}
+}
